@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+body {
+  background-image: url(images/term-bg-4-2ce62fdc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100wh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.h1 {
+  margin-top: 8rem;
+  border: 2px solid #fff;
+  width: 40%;
+  background-color: black;
+  color: #fff;
+  font-size: large;
+  border-radius: 1.5rem;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  height: 50%;
+  background-color: #fff;
+  margin-top: 2rem;
+  padding: 1rem;
+  font-size: x-large;
+  line-height: normal;
+  border-radius: 1.5rem;
+}
+
+.text-area {
+  font-weight: 600;
+  letter-spacing: 0cqw;
+}
+
+.person {
+  margin: 1rem;
+  font-weight: bolder;
+  letter-spacing: inherit;
+  text-transform: uppercase;
+  font-size: xx-large;
+}
+
+#new-quet {
+  background-color: black;
+  color: #fff;
+  padding: 1rem;
+  font-size: large;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.button button:active {
+  background-color: lightblue;
+}

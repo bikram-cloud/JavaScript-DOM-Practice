@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+.container {
+  width: 40%;
+  height: 10%;
+  padding: 20px 10px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 3px 5px 6px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.input {
+  border-radius: 10px;
+  margin-right: 10px;
+  font-size: 1.2rem;
+  padding: 10px;
+  border: 1px solid #000000;
+}
+
+.add-task {
+  padding: 10px;
+  font-size: 1.2rem;
+  display: inline;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  background-color: #fff;
+  color: #000000;
+  cursor: pointer;
+}
+
+.add-task:hover {
+  background-color: green;
+  color: #fff;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 0 0 3px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+  position: relative;
+}
+
+li {
+  list-style: none;
+}
+
+.li {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.task button {
+  padding: 10px;
+  font-size: 1.2rem;
+  display: inline;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  background-color: #fff;
+  color: #000000;
+  cursor: pointer;
+  margin-left: 1px;
+}
+
+.ckeckTask {
+  position: absolute;
+  right: 20%;
+}
+
+.deleteTask {
+  position: absolute;
+  right: 0;
+}
+
+.deleteTask:hover {
+  background: orange;
+  color: #fff;
+}
+
+.ckeckTask:hover {
+  background: red;
+  color: #fff;
+}

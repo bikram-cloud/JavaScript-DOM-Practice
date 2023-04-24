@@ -1,0 +1,70 @@
+body {
+  background: url(images.jpg) no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+}
+
+#open-btn {
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  width: 350px;
+  height: 80px;
+  font-size: 2rem;
+  background: transparent;
+  color: #fff;
+  border: solid 2px #fff;
+  border-radius: 10px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 3px black;
+  transition: 0.5s;
+}
+
+#open-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+p {
+  padding-left: 20px;
+}
+
+#modal-container {
+  background-color: #fff;
+  width: 200px;
+  height: 100px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  animation-name: ani;
+  animation-duration: 6s;
+  display: none;
+  /* background-color: rgba(0, 0, 0, 0.01); */
+}
+
+#close-bth {
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: #000fff;
+}
+
+/* Modal Animation section */
+@keyframes ani {
+  from {
+    top: -500px;
+    opacity: 0;
+  }
+  to {
+    top: 50%;
+    opacity: 1;
+  }
+}
